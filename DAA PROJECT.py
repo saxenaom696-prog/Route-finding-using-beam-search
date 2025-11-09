@@ -4,7 +4,7 @@ import pygame, sys, math, time, heapq
 pygame.init()
 WIDTH, HEIGHT = 700, 500
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Route Finding using Beam Search – Rahul Ranjan")
+pygame.display.set_caption("Route Finding using Beam Search – Om Saxena")
 font = pygame.font.SysFont("arial", 20, bold=True)
 clock = pygame.time.Clock()
 
@@ -170,3 +170,4 @@ def main():
 # Run the game
 if __name__ == "__main__":
     main()
+
